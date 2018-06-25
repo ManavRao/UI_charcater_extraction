@@ -1,0 +1,54 @@
+body{
+	overflow-y: scroll; 
+	padding: 0;
+	margin: 0;
+	font-family: Verdana;
+	font-size: 16px;
+	color: red
+	height: 400px;
+	
+}
+#wrapper{
+	width: 300px;
+	margin: 400px auto;
+	text-align: center;
+}
+
+#popupBoxOnePosition{
+				top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+				background-color: rgba(0,0,0,0.7); display: none;
+			}
+			
+.popupBoxWrapper{
+	width: 550px; margin: 50px auto; text-align: left;
+}
+
+.popupBoxContent{
+	background-color: #FFF; padding: 15px;
+}
+
+.button{
+	display:inline-block;
+	font-family: Trebuchet MS;
+	outline:0 !important;
+	border:0;
+	border-radius:2px;
+	color:white !important;
+	background:#7DB1EF !important;
+	white-space:nowrap;
+	padding:0.48rem 0.8rem !important;
+	line-height:1.4 !important;
+	position:relative;
+	text-transform:uppercase
+}
+
+.button:not(.disabled):hover{
+	color:white !important;
+	background:black !important
+}
+
+.button:not(.disabled):focus{
+	color:white !important;
+	background:red !important;
+	transform: translateY(2px);
+}
